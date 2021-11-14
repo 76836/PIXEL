@@ -1,0 +1,23 @@
+
+{
+  "name": "PIXEL",
+  "short_name": "PIXEL",
+  "description": "Display a red pixel on any screen.",
+  "icons": [
+    {
+      "src": "/PIXEL.jpg",
+      "sizes": "32x32",
+      "type": "image/jpg"
+    },
+    
+    {
+      "src": "/PIXEL.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
