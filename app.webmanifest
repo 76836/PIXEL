@@ -5,13 +5,13 @@
   "description": "Display a red pixel on any screen.",
   "icons": [
     {
-      "src": "https://76836.github.io/PIXEL/PIXEL.jpg",
+      "src": "PIXEL.jpg",
       "sizes": "1x1",
       "type": "image/jpeg"
     },
     
     {
-      "src": "https://76836.github.io/PIXEL/PIXEL.jpg",
+      "src": "PIXEL.jpg",
       "sizes": "512x512",
       "type": "image/jpeg"
     }
