@@ -5,8 +5,8 @@
   "description": "Display a red pixel on any screen.",
   "icons": [
     {
-      "src": "Pixelapp.png",
-      "sizes": "474x474",
+      "src": "a3.png",
+      "sizes": "512x512",
       "type": "image/png"
     },
     
@@ -17,7 +17,7 @@
     }
   ],
   "start_url": "/index.html",
-  "display": "fullscreen",
+  "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000"
 }
