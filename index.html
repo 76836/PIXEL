@@ -1,8 +1,7 @@
-<!doctype html>
-<html>
-  <head>
-    
-    <style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
 img {
   display: block;
   margin-left: auto;
@@ -10,26 +9,26 @@ img {
   margin: auto;
 }
 </style>
-    
-    <title>PIXEL</title>
-    
-    <link rel="manifest" href="app.webmanifest"/>
-    <link rel="apple-touch-icon" href="pixelapp.png"/>
-   <link rel="icon" 
-      type="image/x-icon" 
-      href="pixelfavicon.ico">
-<body style="background-color:Black;"></body>
-    
-  </head>
-  
-  <body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<title>PIXEL</title>
+<meta name="description" content="Software is feeding the world" />
+<meta name="theme-color" content="#4dbaa8" />
+<link rel="manifest" href="manifest.json">
+
+<script>
+// service worker supported by browser
+if ('serviceWorker' in navigator) {
+ navigator.serviceWorker.register('sw.js');
+};
+</script>
+</head>
+<body>
   <div>
 <img src="PIXEL.jpg" alt="RED PIXEL" style="width:1px;height:1px;">
 </div>
-  </body>
-  
+</body>
 </html>
-
-
 
 
