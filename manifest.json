@@ -11,9 +11,10 @@
     },
     
     {
-      "src": "a2.png",
-      "sizes": "4000x4000",
+      "src": "maskable_icon_x384.png",
+      "sizes": "384x384",
       "type": "image/png"
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/index.html",
